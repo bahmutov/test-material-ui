@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cypress-expect run --passing 8",
     "eject": "react-scripts eject",
     "update:badges": "update-badge cypress cypress-react-unit-test"
   },
