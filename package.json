@@ -21,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update:badges": "update-badge cypress cypress-react-unit-test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +40,9 @@
     ]
   },
   "devDependencies": {
-    "cypress-react-unit-test": "3.0.0-cypress-mount-mode.14"
+    "cypress": "5.4.0",
+    "cypress-expect": "2.1.2",
+    "cypress-react-unit-test": "4.16.0",
+    "dependency-version-badge": "1.5.0"
   }
 }
