@@ -1,7 +1,9 @@
 # test-material-ui
 > Testing [Material UI](https://material-ui.com/) components using Cypress
 
-Uses [cypress-react-unit-test v2](https://github.com/bahmutov/cypress-react-unit-test/pull/108)
+![cypress version](https://img.shields.io/badge/cypress-5.4.0-brightgreen) ![cypress-react-unit-test version](https://img.shields.io/badge/cypress--react--unit--test-4.16.0-brightgreen)
+
+Uses [cypress-react-unit-test](https://github.com/bahmutov/cypress-react-unit-test)
 
 Installation
 
