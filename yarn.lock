@@ -1358,6 +1358,14 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bahmutov/all-paths@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@bahmutov/all-paths/-/all-paths-1.0.2.tgz#9ae0dcdf9022dd6e5e14d7fda3479e6a330d035b"
+  integrity sha512-kqeMYh7e9yXWSm7LdQp4BZ4Igxk25lM2Jtw4+G83ro5nFvbHAp3ZmY2na/AVk57+CpZDH/sCXxyKFwkdisnkbw==
+  dependencies:
+    lodash.isplainobject "4.0.6"
+    lodash.range "3.2.0"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -2595,6 +2603,11 @@ arg@4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/arg/-/arg-4.1.3.tgz#269fc7ad5b8e42cb63c896d5666017261c144089"
   integrity sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==
+
+arg@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.0.tgz#a20e2bb5710e82950a516b3f933fee5ed478be90"
+  integrity sha512-4P8Zm2H+BRS+c/xX1LrHw0qKpEhdlZjLCgWy+d78T9vqa2Z2SiD2wMrYuWIAFy5IZUD7nnNXroRttz+0RzlrzQ==
 
 argparse@^1.0.7:
   version "1.0.10"
@@ -4467,12 +4480,13 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress-expect@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.3.1.tgz#172e15c7f15b935f6d0d7245f72af22a86df15d1"
-  integrity sha512-GaeHeOEBFJ8u1Jx2cy/EPnxIA1DW6Bj1ouwnPESwfe1LAO4wmrDPRuuWFpe+7GytVrvkdrnfi7nlclhIHxWwfw==
+cypress-expect@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/cypress-expect/-/cypress-expect-2.4.0.tgz#dcd5db7a17a7490c55cd68bbdb55018b56d00cf9"
+  integrity sha512-XcgL94QIpPDwAOsFWqOitJ23r4oagSFjh/0m56Qdx++JBkT/gwU1K+oCTHFSRsIJsU+OsuUTvOvZ8g9HYt05CQ==
   dependencies:
-    arg "4.1.3"
+    "@bahmutov/all-paths" "1.0.2"
+    arg "5.0.0"
     debug "4.3.1"
     ramda "0.27.1"
 
@@ -8271,6 +8285,11 @@ lodash.flattendeep@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.flattendeep/-/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
   integrity sha1-+wMJF/hqMTTlvJvsDWngAT3f7bI=
 
+lodash.isplainobject@4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+  integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
+
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -8285,6 +8304,11 @@ lodash.once@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
   integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
+
+lodash.range@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.range/-/lodash.range-3.2.0.tgz#f461e588f66683f7eadeade513e38a69a565a15d"
+  integrity sha1-9GHliPZmg/fq3q3lE+OKaaVloV0=
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
