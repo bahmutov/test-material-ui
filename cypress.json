@@ -1,8 +1,7 @@
 {
-  "pluginsFile": "node_modules/cypress-react-unit-test/plugins/cra-v3",
-  "supportFile": "node_modules/cypress-react-unit-test/support",
-  "testFiles": "**/*-spec.js",
-  "experimentalComponentTesting": true,
-  "componentFolder": "src",
+  "component": {
+    "componentFolder": "src",
+    "testFiles": "**/*spec.{js,jsx,ts,tsx}"
+  },
   "viewportWidth": 500
 }

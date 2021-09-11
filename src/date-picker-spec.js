@@ -3,7 +3,7 @@ import React from 'react'
 // https://material-ui.com/components/pickers/
 // https://codesandbox.io/s/z9k3z
 import DatePickers from './date-picker'
-import {mount} from 'cypress-react-unit-test'
+import {mount} from '@cypress/react'
 
 describe('Date pickers', () => {
   it('picks a day', () => {
@@ -39,6 +39,7 @@ describe('Date pickers', () => {
 
     cy.log('**check time**')
     cy.get('.MuiInputAdornment-positionEnd button').eq(2).click()
+    // eslint-disable-next-line cypress/no-unnecessary-waiting
     cy.get('.MuiPickersClock-clock').should('be.visible')
       .wait(500) // for the demo
 

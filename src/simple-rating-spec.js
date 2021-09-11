@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import { mount } from 'cypress-react-unit-test'
+import { mount } from '@cypress/react'
 // select example from
 // https://material-ui.com/components/rating/
 
@@ -7,7 +7,6 @@ import React from 'react'
 import Rating from '@material-ui/lab/Rating'
 import Typography from '@material-ui/core/Typography'
 import Box from '@material-ui/core/Box'
-import { ExpansionPanelActions } from '@material-ui/core'
 
 export default function SimpleRating({ onSetRating }) {
   const [value, setValue] = React.useState(2)
