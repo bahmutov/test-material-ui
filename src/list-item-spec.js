@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 import React from 'react'
-import { mount } from 'cypress-react-unit-test'
+import { mount } from '@cypress/react'
 import ListItem from '@material-ui/core/ListItem'
 import { ListItemText } from '@material-ui/core'
 import SimpleList from './list-demo'
@@ -19,6 +19,7 @@ it('renders a list item', () => {
 it('renders full list', () => {
   cy.viewport(500, 800)
   mount(<SimpleList />)
+  // eslint-disable-next-line cypress/no-unnecessary-waiting
   cy.contains('Drafts')
     .click()
     .wait(1000)

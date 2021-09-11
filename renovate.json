@@ -22,11 +22,6 @@
       "packagePatterns": [
         "*"
       ],
-      "excludePackagePatterns": [
-        "cypress",
-        "cypress-expect",
-        "cypress-react-unit-test"
-      ],
       "enabled": false
     }
   ]
